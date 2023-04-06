@@ -1,0 +1,145 @@
+body {
+  background-color: lightslategray;
+}
+
+h1 {
+  color: blue;
+  font-family: "";
+  font-size: 55px;
+  float: right;
+  margin-top: 350px;
+}
+
+h2 {
+  color: orange;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+ul {
+  color: orange;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+ol {
+  color: orange;
+  font-size: 20px;
+  text-transform: full-size-kana;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+li {
+  text-transform: full-size-kana;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+p {
+  color: orangered;
+  text-indent: 20px;
+  text-transform: full-size-kana;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  margin-top: 30px;
+  text-indent: 60px;
+}
+
+.image1 {
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 25px 25px;
+  top: -30px;
+}
+
+.image2 {
+  width: 300px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 25px 25px;
+  top: -30px;
+}
+
+.container {
+  width: 80%;
+  margin-bottom: 0;
+}
+
+.container1 {
+  width: 80%;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.container2 {
+  width: 80%;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  right: 20;
+  font-size: 30px;
+}
+
+.container3 {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container4 {
+  width: 80%;
+  margin-top: 20px;
+  position: fixed;
+  right: 20;
+  font-size: 30px;
+}
+
+/* Styles for screens with a maximum width of 767px (i.e., mobile screens) */
+@media only screen and (max-width: 767px) {
+  h1 {
+    font-size: 35px;
+    margin-top: 100px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  ul {
+    font-size: 15px;
+  }
+
+  ol {
+    font-size: 15px;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+  p {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-indent: 20px;
+  }
+
+  .image1 {
+    height: 100px;
+    top: -20px;
+  }
+
+  .image2 {
+    width: 200px;
+    height: 150px;
+    top: -20px
+}
