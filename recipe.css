@@ -99,47 +99,33 @@ p {
   font-size: 30px;
 }
 
-/* Styles for screens with a maximum width of 767px (i.e., mobile screens) */
-@media only screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
+  .container, .container1, .container2, .container3, .container4 {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+  
   h1 {
-    font-size: 35px;
+    font-size: 40px;
     margin-top: 100px;
   }
-
+  
   h2 {
-    font-size: 25px;
+    font-size: 30px;
   }
-
+  
   h3 {
     font-size: 20px;
   }
-
-  ul {
-    font-size: 15px;
-  }
-
-  ol {
-    font-size: 15px;
-  }
-
-  li {
-    font-size: 15px;
-  }
-
+  
   p {
-    font-size: 25px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    text-indent: 20px;
+    font-size: 20px;
+    margin-top: 20px;
   }
-
-  .image1 {
-    height: 100px;
-    top: -20px;
+  
+  img {
+    width: 100%;
+    height: auto;
   }
-
-  .image2 {
-    width: 200px;
-    height: 150px;
-    top: -20px
 }
