@@ -1,0 +1,135 @@
+body {
+  background-color: lightslategray;
+}
+h1 {
+  color: blue;
+  font-family: "";
+  font-size: 55px;
+  float: right;
+  margin-top: 350px;
+}
+h2 {
+  color: orange;
+  font-family: "Lucida Console", "Courier New", monospace;
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+ul {
+  color: orange;
+  font-size: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+ol {
+  color: orange;
+  font-size: 20px;
+  text-transform: full-size-kana;
+  font-family: "Lucida Console", "Courier New", monospace;
+
+}
+li 
+  text-transform: full-size-kana;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
+}
+p {
+  color: orangered;
+  text-indent: 20px;
+  text-transform: full-size-kana;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  margin-top: 30px;
+  text-indent: 60px;
+
+}
+
+
+.image1
+{
+height:150px;
+border-radius: 50%;
+box-shadow: 25px 25px;
+top: -30px;
+
+}
+
+
+.image2
+{
+width:300px;
+height:250px;
+border-radius: 50%;
+box-shadow: 25px 25px;
+top: -30px;
+
+}
+
+.container {
+  width: 80%;
+  margin-bottom; 
+}
+
+.container1 {
+  width: 80%;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.container2 {
+  width: 80%;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  right:20;
+ font-size: 30px;
+}
+
+.container3 {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.container4 {
+  width: 80%;
+  margin-top: 20px;
+  position: fixed;
+  right:20;
+ font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+/* Mobile layout CSS */
+.container {
+text-align: center;
+}
+h1 {
+margin-top: 50px;
+font-size: 30px;
+}
+.container1 {
+margin-bottom: 20px;
+}
+.container4 {
+margin-top: 100px;
+text-align: center;
+font-size: 20px;
+}
+.container3 {
+margin-top: 50px;
+text-align: center;
+}
+ol {
+list-style-position: inside;
+}
+.image1 {
+height: 100px;
+}
+.image2 {
+width: 200px;
+height: 150px;
+}
+}
